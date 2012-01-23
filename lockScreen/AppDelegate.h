@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  TrackMix
+//  lockScreen
 //
 //  Created by Remco Overdijk on 22-01-12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Rem.co Software Solutions. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
