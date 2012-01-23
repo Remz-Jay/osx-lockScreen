@@ -13,6 +13,8 @@
 		400BA25B14CDFCFB005EBB6A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 400BA25914CDFCFB005EBB6A /* Credits.rtf */; };
 		400BA25E14CDFCFB005EBB6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 400BA25D14CDFCFB005EBB6A /* AppDelegate.m */; };
 		400BA26114CDFCFC005EBB6A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 400BA25F14CDFCFC005EBB6A /* MainMenu.xib */; };
+		400BA26914CDFE68005EBB6A /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 400BA26714CDFE68005EBB6A /* lock.png */; };
+		400BA26A14CDFE68005EBB6A /* lock_go.png in Resources */ = {isa = PBXBuildFile; fileRef = 400BA26814CDFE68005EBB6A /* lock_go.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,16 @@
 		400BA24D14CDFCFB005EBB6A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		400BA24E14CDFCFB005EBB6A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		400BA24F14CDFCFB005EBB6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		400BA25214CDFCFB005EBB6A /* lockScreen-Info.plist */ = {isa = PBXFileReference; path = "lockScreen-Info.plist"; sourceTree = "<group>"; };
+		400BA25214CDFCFB005EBB6A /* lockScreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lockScreen-Info.plist"; sourceTree = "<group>"; };
 		400BA25414CDFCFB005EBB6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		400BA25614CDFCFB005EBB6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		400BA25814CDFCFB005EBB6A /* lockScreen-Prefix.pch */ = {isa = PBXFileReference; path = "lockScreen-Prefix.pch"; sourceTree = "<group>"; };
+		400BA25814CDFCFB005EBB6A /* lockScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lockScreen-Prefix.pch"; sourceTree = "<group>"; };
 		400BA25A14CDFCFB005EBB6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		400BA25C14CDFCFB005EBB6A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		400BA25C14CDFCFB005EBB6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		400BA25D14CDFCFB005EBB6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		400BA26014CDFCFC005EBB6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		400BA26714CDFE68005EBB6A /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		400BA26814CDFE68005EBB6A /* lock_go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock_go.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				400BA25C14CDFCFB005EBB6A /* AppDelegate.h */,
 				400BA25D14CDFCFB005EBB6A /* AppDelegate.m */,
 				400BA25F14CDFCFC005EBB6A /* MainMenu.xib */,
+				400BA26714CDFE68005EBB6A /* lock.png */,
+				400BA26814CDFE68005EBB6A /* lock_go.png */,
 				400BA25114CDFCFB005EBB6A /* Supporting Files */,
 			);
 			path = lockScreen;
@@ -155,6 +161,8 @@
 				400BA25514CDFCFB005EBB6A /* InfoPlist.strings in Resources */,
 				400BA25B14CDFCFB005EBB6A /* Credits.rtf in Resources */,
 				400BA26114CDFCFC005EBB6A /* MainMenu.xib in Resources */,
+				400BA26914CDFE68005EBB6A /* lock.png in Resources */,
+				400BA26A14CDFE68005EBB6A /* lock_go.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
