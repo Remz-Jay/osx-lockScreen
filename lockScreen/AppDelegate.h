@@ -17,6 +17,9 @@
 }
 
 -(IBAction)lockScreen:(id)sender;
+-(IBAction)toggleLogin:(id)sender;
+-(void)addAppAsLoginItem;
+-(void)deleteAppFromLoginItem;
 
 @property (assign) IBOutlet NSWindow *window;
 
