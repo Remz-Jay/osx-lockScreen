@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		400BA24B14CDFCFB005EBB6A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400BA24A14CDFCFB005EBB6A /* Cocoa.framework */; };
+		400BA25514CDFCFB005EBB6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 400BA25314CDFCFB005EBB6A /* InfoPlist.strings */; };
+		400BA25714CDFCFB005EBB6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 400BA25614CDFCFB005EBB6A /* main.m */; };
+		400BA25B14CDFCFB005EBB6A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 400BA25914CDFCFB005EBB6A /* Credits.rtf */; };
+		400BA25E14CDFCFB005EBB6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 400BA25D14CDFCFB005EBB6A /* AppDelegate.m */; };
+		400BA26114CDFCFC005EBB6A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 400BA25F14CDFCFC005EBB6A /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		400BA24614CDFCFB005EBB6A /* lockScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lockScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		400BA24A14CDFCFB005EBB6A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		400BA24D14CDFCFB005EBB6A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		400BA24E14CDFCFB005EBB6A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		400BA24F14CDFCFB005EBB6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		400BA25214CDFCFB005EBB6A /* lockScreen-Info.plist */ = {isa = PBXFileReference; path = "lockScreen-Info.plist"; sourceTree = "<group>"; };
+		400BA25414CDFCFB005EBB6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		400BA25614CDFCFB005EBB6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		400BA25814CDFCFB005EBB6A /* lockScreen-Prefix.pch */ = {isa = PBXFileReference; path = "lockScreen-Prefix.pch"; sourceTree = "<group>"; };
+		400BA25A14CDFCFB005EBB6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		400BA25C14CDFCFB005EBB6A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		400BA25D14CDFCFB005EBB6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		400BA26014CDFCFC005EBB6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		400BA24314CDFCFB005EBB6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400BA24B14CDFCFB005EBB6A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400BA23B14CDFCFB005EBB6A = {
+			isa = PBXGroup;
+			children = (
+				400BA25014CDFCFB005EBB6A /* lockScreen */,
+				400BA24914CDFCFB005EBB6A /* Frameworks */,
+				400BA24714CDFCFB005EBB6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		400BA24714CDFCFB005EBB6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				400BA24614CDFCFB005EBB6A /* lockScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		400BA24914CDFCFB005EBB6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				400BA24A14CDFCFB005EBB6A /* Cocoa.framework */,
+				400BA24C14CDFCFB005EBB6A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		400BA24C14CDFCFB005EBB6A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				400BA24D14CDFCFB005EBB6A /* AppKit.framework */,
+				400BA24E14CDFCFB005EBB6A /* CoreData.framework */,
+				400BA24F14CDFCFB005EBB6A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		400BA25014CDFCFB005EBB6A /* lockScreen */ = {
+			isa = PBXGroup;
+			children = (
+				400BA25C14CDFCFB005EBB6A /* AppDelegate.h */,
+				400BA25D14CDFCFB005EBB6A /* AppDelegate.m */,
+				400BA25F14CDFCFC005EBB6A /* MainMenu.xib */,
+				400BA25114CDFCFB005EBB6A /* Supporting Files */,
+			);
+			path = lockScreen;
+			sourceTree = "<group>";
+		};
+		400BA25114CDFCFB005EBB6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				400BA25214CDFCFB005EBB6A /* lockScreen-Info.plist */,
+				400BA25314CDFCFB005EBB6A /* InfoPlist.strings */,
+				400BA25614CDFCFB005EBB6A /* main.m */,
+				400BA25814CDFCFB005EBB6A /* lockScreen-Prefix.pch */,
+				400BA25914CDFCFB005EBB6A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		400BA24514CDFCFB005EBB6A /* lockScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 400BA26414CDFCFC005EBB6A /* Build configuration list for PBXNativeTarget "lockScreen" */;
+			buildPhases = (
+				400BA24214CDFCFB005EBB6A /* Sources */,
+				400BA24314CDFCFB005EBB6A /* Frameworks */,
+				400BA24414CDFCFB005EBB6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lockScreen;
+			productName = lockScreen;
+			productReference = 400BA24614CDFCFB005EBB6A /* lockScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		400BA23D14CDFCFB005EBB6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 400BA24014CDFCFB005EBB6A /* Build configuration list for PBXProject "lockScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 400BA23B14CDFCFB005EBB6A;
+			productRefGroup = 400BA24714CDFCFB005EBB6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				400BA24514CDFCFB005EBB6A /* lockScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		400BA24414CDFCFB005EBB6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400BA25514CDFCFB005EBB6A /* InfoPlist.strings in Resources */,
+				400BA25B14CDFCFB005EBB6A /* Credits.rtf in Resources */,
+				400BA26114CDFCFC005EBB6A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		400BA24214CDFCFB005EBB6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400BA25714CDFCFB005EBB6A /* main.m in Sources */,
+				400BA25E14CDFCFB005EBB6A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		400BA25314CDFCFB005EBB6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				400BA25414CDFCFB005EBB6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		400BA25914CDFCFB005EBB6A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				400BA25A14CDFCFB005EBB6A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		400BA25F14CDFCFC005EBB6A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				400BA26014CDFCFC005EBB6A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		400BA26214CDFCFC005EBB6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		400BA26314CDFCFC005EBB6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		400BA26514CDFCFC005EBB6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lockScreen/lockScreen-Prefix.pch";
+				INFOPLIST_FILE = "lockScreen/lockScreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		400BA26614CDFCFC005EBB6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lockScreen/lockScreen-Prefix.pch";
+				INFOPLIST_FILE = "lockScreen/lockScreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		400BA24014CDFCFB005EBB6A /* Build configuration list for PBXProject "lockScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400BA26214CDFCFC005EBB6A /* Debug */,
+				400BA26314CDFCFC005EBB6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		400BA26414CDFCFC005EBB6A /* Build configuration list for PBXNativeTarget "lockScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400BA26514CDFCFC005EBB6A /* Debug */,
+				400BA26614CDFCFC005EBB6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 400BA23D14CDFCFB005EBB6A /* Project object */;
+}
