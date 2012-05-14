@@ -19,21 +19,27 @@
     statusHighlightImage = [[NSImage alloc] initWithContentsOfFile:[bundle pathForResource:@"lock_go" ofType:@"png"]];
     [statusItem setImage:statusImage];
     [statusItem setAlternateImage:statusHighlightImage];
-    [statusItem setMenu:statusMenu];
     [statusItem setToolTip:@"rem.co anti hax0r screen locker"];
     [statusItem setHighlightMode:YES];
+    [statusItem setAction:@selector(detectAction:)];
 }
 
 -(IBAction)lockScreen:(id)sender {
     NSTask *task;
     NSMutableArray *arguments = [NSArray arrayWithObject:@"-suspend"];
-    
     task = [[NSTask alloc] init];
     [task setArguments: arguments];
     [task setLaunchPath: @"/System/Library/CoreServices/Menu Extras/User.menu/Contents/Resources/CGSession"];
     [task launch];
-    NSLog(@"screen is Locked");
+}
 
+- (void)detectAction:(id)sender {
+    NSEvent *event = [NSApp currentEvent];
+    if([event modifierFlags] & NSControlKeyMask) {
+        [statusItem popUpStatusItemMenu:statusMenu];
+    } else {
+        [self lockScreen:nil];
+    }
 }
 
 -(IBAction)toggleLogin:(id)sender {
